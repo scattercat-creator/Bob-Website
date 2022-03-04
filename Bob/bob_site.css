@@ -1,0 +1,44 @@
+h1 {
+    color: purple;
+}
+img {
+    width: 600px;
+    height: auto;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+    color: blue;
+}
+header {
+    background-color: aquamarine;
+    margin: 0;
+    padding: 20px;
+    position: sticky;
+    display: block;
+    width: 100vw;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+html {
+    margin: 0;
+}
+
+@keyframes example {
+    from {width: 10px;}
+    to {width: 500px;}
+}
+
+#Bob2 {
+    width: 5px;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
